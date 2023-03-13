@@ -5,6 +5,14 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Main {
+
+    public static void println(String text){
+        System.out.println(text);
+    }
+    public static void println(){
+        System.out.println("");
+    }
+
     public static void main(String[] args) {
         List<String> names = Arrays.asList("Jakub", "Michal", "Agnieszka", "Ola", "Kasia");
 
@@ -24,8 +32,12 @@ public class Main {
             greeter.greet(ladyName);
         }
 
+        println("-----------------------");
+
         names.stream()
                 .filter(name -> name.endsWith("a"))
+                .filter((name -> name.startsWith("K")))
+                .map(String::toUpperCase)
                 .forEach(greeter::greet);
 
     }
