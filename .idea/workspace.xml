@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75bc1b7c-843c-4f8c-a2b2-20a878fddd04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/cp4/CreaditCard/CreditBelowLimitException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/cp4/CreaditCard/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/cp4/CreaditCard/CreditCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/cp4/Xtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/cp4/CreaditCard/CreditBelowLimitException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/cp4/CreaditCard/CreditBelowLimitException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/cp4/CreaditCard/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/cp4/CreaditCard/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/cp4/CreaditCard/CreditCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/cp4/CreaditCard/CreditCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/cp4/CreaditCard/CreditBelowLimitException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/cp4/CreaditCard/CreditBelowLimitException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/cp4/CreaditCard/CreditCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/cp4/CreaditCard/CreditCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/cp4/CreaditCard/CreditCardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/cp4/CreaditCard/CreditCardTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,8 +59,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NumberRepresentationTest">
-    <configuration name="CreditCardTest.itAllowsToAssignCreditLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CreditCardTest.itAllowsToWithdraw">
+    <configuration name="CreditCardTest.itAllowsToWithdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-app" />
       <extension name="coverage">
         <pattern>
@@ -67,7 +70,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="pl.cp4.CreaditCard" />
       <option name="MAIN_CLASS_NAME" value="pl.cp4.CreaditCard.CreditCardTest" />
-      <option name="METHOD_NAME" value="itAllowsToAssignCreditLimit" />
+      <option name="METHOD_NAME" value="itAllowsToWithdraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreditCardTest.itCantAssignLimitTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.cp4.CreaditCard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.cp4.CreaditCard" />
+      <option name="MAIN_CLASS_NAME" value="pl.cp4.CreaditCard.CreditCardTest" />
+      <option name="METHOD_NAME" value="itCantAssignLimitTwice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,22 +103,6 @@
       <option name="PACKAGE_NAME" value="pl.cp4.CreaditCard" />
       <option name="MAIN_CLASS_NAME" value="pl.cp4.CreaditCard.CreditCardTest" />
       <option name="METHOD_NAME" value="itDenyLimitsBelow100" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreditCardTest.itMyFirstTestRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.cp4.CreaditCard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.cp4.CreaditCard" />
-      <option name="MAIN_CLASS_NAME" value="pl.cp4.CreaditCard.CreditCardTest" />
-      <option name="METHOD_NAME" value="itMyFirstTestRun" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreditCardTest.itAllowsToWithdraw" />
+        <item itemvalue="JUnit.CreditCardTest.itCantAssignLimitTwice" />
+        <item itemvalue="JUnit.CreditCardTest.itDenyLimitsBelow100" />
         <item itemvalue="JUnit.NumberRepresentationTest" />
         <item itemvalue="JUnit.Xtest.testIt" />
-        <item itemvalue="JUnit.CreditCardTest.itDenyLimitsBelow100" />
-        <item itemvalue="JUnit.CreditCardTest.itAllowsToAssignCreditLimit" />
-        <item itemvalue="JUnit.CreditCardTest.itMyFirstTestRun" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +182,14 @@
           <url>file://$PROJECT_DIR$/src/test/java/pl/cp4/Xtest.java</url>
           <line>8</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/cp4/CreaditCard/CreditCardTest.java</url>
+          <line>55</line>
+          <properties class="pl.cp4.CreaditCard.CreditCardTest" method="itDenyLimitsBelow100">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
