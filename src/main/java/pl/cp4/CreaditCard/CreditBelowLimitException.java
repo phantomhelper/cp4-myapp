@@ -1,4 +1,4 @@
 package pl.cp4.CreaditCard;
 
-public class CreditBelowLimitException {
+public class CreditBelowLimitException extends IllegalAccessException {
 }

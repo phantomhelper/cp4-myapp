@@ -1,22 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75bc1b7c-843c-4f8c-a2b2-20a878fddd04" name="Default Changelist" comment="" />
+    <list default="true" id="75bc1b7c-843c-4f8c-a2b2-20a878fddd04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/cp4/CreaditCard/CreditBelowLimitException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/cp4/CreaditCard/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/cp4/CreaditCard/CreditCardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/cp4/Xtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2MxLC8iXBSwbxrayGiqXNpr8zQe" />
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/pl/cp4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.cp4.CreaditCard" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -30,9 +56,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.cp4.Main" />
+  <component name="RunManager" selected="JUnit.NumberRepresentationTest">
+    <configuration name="CreditCardTest.itAllowsToAssignCreditLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.cp4.CreaditCard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.cp4.CreaditCard" />
+      <option name="MAIN_CLASS_NAME" value="pl.cp4.CreaditCard.CreditCardTest" />
+      <option name="METHOD_NAME" value="itAllowsToAssignCreditLimit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreditCardTest.itDenyLimitsBelow100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.cp4.CreaditCard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.cp4.CreaditCard" />
+      <option name="MAIN_CLASS_NAME" value="pl.cp4.CreaditCard.CreditCardTest" />
+      <option name="METHOD_NAME" value="itDenyLimitsBelow100" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreditCardTest.itMyFirstTestRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.cp4.CreaditCard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.cp4.CreaditCard" />
+      <option name="MAIN_CLASS_NAME" value="pl.cp4.CreaditCard.CreditCardTest" />
+      <option name="METHOD_NAME" value="itMyFirstTestRun" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberRepresentationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-app" />
       <extension name="coverage">
         <pattern>
@@ -40,13 +113,36 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="pl.cp4" />
+      <option name="MAIN_CLASS_NAME" value="pl.cp4.NumberRepresentationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Xtest.testIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.cp4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.cp4" />
+      <option name="MAIN_CLASS_NAME" value="pl.cp4.Xtest" />
+      <option name="METHOD_NAME" value="testIt" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.NumberRepresentationTest" />
+        <item itemvalue="JUnit.Xtest.testIt" />
+        <item itemvalue="JUnit.CreditCardTest.itDenyLimitsBelow100" />
+        <item itemvalue="JUnit.CreditCardTest.itAllowsToAssignCreditLimit" />
+        <item itemvalue="JUnit.CreditCardTest.itMyFirstTestRun" />
       </list>
     </recent_temporary>
   </component>
@@ -68,10 +164,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/cp4/Xtest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
